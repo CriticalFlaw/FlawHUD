@@ -4,6 +4,6 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"				"c70"
+		"ypos"				"r180"
 	}
 }

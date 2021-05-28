@@ -14,6 +14,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"FontBold47"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"47"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"FontBold37"
 		{
 			"1"

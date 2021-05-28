@@ -44,6 +44,7 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -79,6 +80,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -118,6 +120,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -157,6 +160,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -196,6 +200,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -235,6 +240,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -274,6 +280,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -313,6 +320,7 @@
 		"paintbackground"	"0"
 
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"
@@ -353,6 +361,7 @@
 		"paintbackground"	"0"
 		
 		"fgcolor"					"TanDark"
+		"defaultFgColor_override"	"TanDark"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override"	"TanDark"
 		"selectedFgColor_override"	"TanLight"

@@ -1,21 +1,63 @@
-#base "huditemeffectmeter.res"
-
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
-	"ItemEffectMeter"
+	"HudItemEffectMeter"
 	{
-		"visible"				"0"
-		"enabled"				"0"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c230"
+		"ypos"					"r40"
+		"wide"					"110"
+		"tall"					"62"
+		"MeterFG"				"White"
+		"MeterBG"				"Gray"
 	}
-
+	
+	"Background"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"Background"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"0"
+		"wide"					"90"
+		"tall"					"52"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/misc_ammo_area_blue"
+		"scaleImage"			"1"	
+		"teambg_2"				"../hud/misc_ammo_area_red"
+		"teambg_3"				"../hud/misc_ammo_area_blue"
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"14"
+		"zpos"					"3"
+		"wide"					"80"
+		"tall"					"8"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"FontRegular12"
+	}
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"-15"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"55"
+		"wide"					"50"
 		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -25,15 +67,16 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontBold22"
+		"font"					"FontBold20"
+		"pin_to_sibling"		"StreakIcon"
 	}
 
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"42"
-		"ypos"					"27"
+		"xpos"					"-2"
+		"ypos"					"-2"
 		"zpos"					"1"
 		"wide"					"55"
 		"tall"					"20"
@@ -45,8 +88,9 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"FontBold22"
+		"font"					"FontBold20"
 		"fgcolor"				"ShadowBlack"
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 
 	"StreakIcon"
@@ -54,7 +98,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"StreakIcon"
 		"xpos"					"22"
-		"ypos"					"25"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"20"
 		"tall"					"20"
@@ -62,7 +106,7 @@
 		"enabled"				"1"
 		"labelText"				"K"
 		"textAlignment"			"west"
-		"font"					"CustomIcons"
+		"font"					"MenuIcons"
 		"fgcolor_override"		"White"
 	}
 
@@ -70,8 +114,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"StreakIconShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"20"
@@ -79,7 +123,7 @@
 		"enabled"				"1"
 		"labelText"				"K"
 		"textAlignment"			"west"
-		"font"					"CustomIcons"
+		"font"					"MenuIcons"
 		"fgcolor_override"		"ShadowBlack"
 		"pin_to_sibling"		"StreakIcon"
 	}

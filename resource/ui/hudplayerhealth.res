@@ -101,7 +101,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"FontBold50"
+		"font"			"FontBold47"
 
 		"pin_to_sibling"		"Background"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -121,7 +121,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"FontBold50"
+		"font"			"FontBold47"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
