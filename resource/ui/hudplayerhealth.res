@@ -5,11 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-190"
-		"ypos"			"c68"
+		"xpos"			"-10"
+		"ypos"			"r90"
 		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"150"
+		"wide"			"180"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"			"35"
@@ -17,6 +17,23 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}
 
+	"Background"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"0"
+		"wide"			"160"
+		"tall"			"85"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/misc_ammo_area_blue"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -50,8 +67,8 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"43"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"		"Blank"
 		"PaintBackgroundType"	"2"
 	}
@@ -75,8 +92,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-20"
+		"ypos"			"-18"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"43"
@@ -86,15 +103,15 @@
 		"textAlignment"	"center"
 		"font"			"FontBold50"
 
-		"pin_to_sibling"		"HealthBG"
+		"pin_to_sibling"		"Background"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
-	"PlayerStatusHealthValueShadow"
+	"PlayerStatusHealthShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueShadow"
+		"fieldName"		"PlayerStatusHealthShadow"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"5"

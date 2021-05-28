@@ -18,6 +18,23 @@
 		"enabled"			"0"
 	}
 
+	"Background"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Background"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"160"
+		"tall"				"85"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/misc_ammo_area_blue"
+		"scaleImage"		"1"	
+		"teambg_2"			"../hud/misc_ammo_area_red"
+		"teambg_3"			"../hud/misc_ammo_area_blue"
+	}
+
 	"AmmoBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -39,8 +56,8 @@
 		"fieldName"			"AmmoInClip"
 		"font"				"FontBold50"
 		"fgcolor"			"HudWhite"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"-15"
+		"ypos"				"-15"
 		"zpos"				"5"
 		"wide"				"65"
 		"tall"				"43"
@@ -48,7 +65,7 @@
 		"enabled"			"1"
 		"textAlignment"		"east"
 		"labelText"			"%Ammo%"
-		"pin_to_sibling"	"AmmoBG"
+		"pin_to_sibling"	"Background"
 	}
 	"AmmoInClipShadow"
 	{
@@ -109,8 +126,8 @@
 		"fieldName"			"AmmoNoClip"
 		"font"				"FontBold50"
 		"fgcolor"			"HudWhite"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"-25"
+		"ypos"				"-17"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"43"
@@ -118,7 +135,7 @@
 		"enabled"			"1"
 		"textAlignment"		"center"
 		"labelText"			"%Ammo%"
-		"pin_to_sibling"	"AmmoBG"
+		"pin_to_sibling"	"Background"
 	}
 	"AmmoNoClipShadow"
 	{
