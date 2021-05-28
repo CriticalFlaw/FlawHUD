@@ -1,9 +1,9 @@
 // Bonus Health Pulse
 event HudHealthBonusPulse
 {
-	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Linear 0.0 0.2
-//	Animate	PlayerStatusHealthValue		FgColor		"OverhealPulse"		Linear 0.2 0.6
+//	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue		FgColor		"Overheal"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthShadow	FgColor		"OverhealPulse"		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -18,17 +18,18 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
+//	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue		FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthShadow	FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
 // Low Health Pulse
 event HudHealthDyingPulse
 {
-	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
-//	Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Linear 0.0 0.2
-//	Animate PlayerStatusHealthValue		FgColor		"LowHealthPulse"	Linear 0.2 0.6
+//	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue		FgColor		"LowHealth"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthShadow	FgColor		"LowHealthPulse"	Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.4
 }
@@ -43,21 +44,22 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
-//	Animate PlayerStatusHealthValue		FgColor		"HudWhite"			Linear 0.0 0.0
+//	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	Animate PlayerStatusHealthValue		FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate	PlayerStatusHealthShadow	FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
 //Low Ammo Pulse
 event HudLowAmmoPulse
 {
-	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.0
-//	Animate	AmmoInClip					FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoInClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
-//	Animate	AmmoInReserve				FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoInReserve				FgColor		"LowAmmoPulse"		Linear 0.2 0.6
-//	Animate	AmmoNoClip					FgColor		"LowAmmo"			Linear 0.0 0.2
-//	Animate	AmmoNoClip					FgColor		"LowAmmoPulse"		Linear 0.2 0.6
+//	Animate	AmmoBG						BgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoInClip					FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoInReserve				FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoNoClip					FgColor		"LowAmmo"			Accel 0.0 0.0
+	Animate	AmmoInClipShadow			FgColor		"LowAmmoPulse"		Accel 0.0 0.0
+	Animate	AmmoInReserveShadow			FgColor		"LowAmmoPulse"		Accel 0.0 0.0
+	Animate	AmmoNoClipShadow			FgColor		"LowAmmoPulse"		Accel 0.0 0.0
 
 	RunEvent HudLowAmmoPulseLoop		0.4
 }
@@ -72,10 +74,13 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 			0.0
 	StopEvent HudLowAmmoPulseLoop 		0.0
 
-	Animate	AmmoBG						BgColor		"Blank"				Accel 0.0 0.0
-//	Animate AmmoInClip				FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate AmmoInReserve				FgColor		"HudWhite"			Accel 0.0 0.0
-//	Animate AmmoNoClip				FgColor		"HudWhite"			Accel 0.0 0.0
+//	Animate	AmmoBG						BgColor		"Blank"				Accel 0.0 0.0
+	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate AmmoInReserve				FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate AmmoInClip					FgColor		"HudWhite"			Accel 0.0 0.0
+	Animate AmmoInClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate AmmoInReserveShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
+	Animate AmmoNoClipShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
 }
 //==================================================================================
 
